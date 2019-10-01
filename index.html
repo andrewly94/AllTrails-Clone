@@ -1,0 +1,741 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://kit.fontawesome.com/601dad3854.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <title>AllTrails</title>
+  </head>
+
+  <body>
+    <header>
+      <!--NAVIGATION-->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <nav class="navbar navbar-default">
+              <div class="navbar-header">
+                <img
+                  class="logoresize"
+                  src="https://cdn-assets.alltrails.com/assets/shared/AT_Main_Logo-b92255ca86b8914b70370a17af408bfa.png"
+                  alt=""
+                />
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  
+                </button>
+        </div>
+        </nav>
+    
+            <li class="btn dropdown">
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Explore
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Trails Near Me</a>
+                  <a class="dropdown-item" href="#">Best Parks</a>
+                  <a class="dropdown-item" href="#">Featured Parks</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="btn dropdown">
+              <button
+                class="btn dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Plan
+              </button>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Favorites</a>
+                <a class="dropdown-item" href="#">Lists</a>
+                <a class="dropdown-item" href="#">Maps</a>
+                <a class="dropdown-item" href="#">Create Map</a>
+              </div>
+            </li>
+
+            <li class="btn dropdown">
+              <button
+                class="btn dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                History
+              </button>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Recordings</a>
+                <a class="dropdown-item" href="#">Completed</a>
+              </div>
+            </li>
+          </ul>
+          
+          <button type="button" class="btn btn-link">
+            Help
+          </button>
+          <button type="button" class="btn btn-link">Log in</button>
+          <button class="btn btn-primary" type="submit">
+            Sign up
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--SECTION 1-->
+      <section class="section1">
+        <div class="container-fluid">
+          <h1>Find your next favorite trail</h1>
+          <div class="searchbar">
+            <div class="input-group">
+              <input
+                class="form-control my-0 py-1 red-border"
+                type="text"
+                placeholder="Enter a park, city or trail name"
+                aria-label="Search"
+              />
+
+              <div class="input-group-append">
+                <span class="input-group-text red lighten-3" id="basic-text1"
+                  ><i class="fas fa-search text-grey" aria-hidden="true"
+                    >Search</i
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 2-->
+      <section class="section2">
+        <div class="container-fluid">
+          <h1>75,000+ trails. 10 million explorers. Endless memories.</h1>
+          <p>
+            The beauty of nature doesn’t need to be hard to find. Our goal is
+            simple - build the largest collection of hand-curated trail guides,
+            so you can explore the outdoors with confidence. Anytime. Anywhere.
+          </p>
+          <br />
+          <button class="btn btn-primary" type="submit">
+            Sign up for free
+          </button>
+          <button type="button" class="btn btn-outline-primary">
+            Get AllTrails Pro
+          </button>
+        </div>
+      </section>
+
+      <!--SECTION 3-->
+      <section class="section3">
+        <div class="container-fluid">
+          <h1>Exploration made easy</h1>
+          <img
+            src="https://cdn-assets.alltrails.com/assets/marketing/exploration-home-iphone-4c3d5b1ef07b6b551c9c5d84c8cdae8d.png"
+            alt=""
+            class="overlap"
+          />
+        </div>
+      </section>
+
+      <!--SECTION 4-->
+      <section class="section4">
+        <div class="container-fluid">
+          <h2>Find your next favorite trail.</h2>
+          <p>
+            Whether at home or on the road, find your perfect hike, bike ride,
+            or trail run. Filter by length, rating, and difficulty level. Easily
+            find dog or kid-friendly trails. Great views are a few taps away.
+          </p>
+        </div>
+      </section>
+
+      <!--SECTION 5-->
+      <section class="section5">
+        <div class="container-fluid">
+          <h1>Take the uncertainty out of planning</h1>
+          <img
+            src="https://cdn-assets.alltrails.com/assets/marketing/home-trail-details-macbook2-1bb844c111cfb5b2f9b2003c7ed298b0.png"
+            alt=""
+            class="overlap"
+          />
+        </div>
+      </section>
+
+      <!--SECTION 6-->
+      <section class="section6">
+        <div class="container-fluid">
+          <h2>Know the details before you go.</h2>
+          <p>
+            Browse hand-curated trail maps as well as trail reviews, photos and
+            activity recordings contributed by a community of hikers, mountain
+            bikers, trail runners and more.
+          </p>
+        </div>
+      </section>
+
+      <!--SECTION 7-->
+      <section class="section7">
+          <div class="row">
+            <div class="col-6">
+              <div class="card" style="width: 30rem">
+                <img class="card-img-top"
+                src="https://images.unsplash.com/photo-1491331568367-82b3c8018969?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+                class="overlap" alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Get driving directions.</h5>
+                  <p class="card-text">
+                    Never get lost finding the trail. With just one click, get
+                    driving directions right to the trail head. Access has never
+                    been so easy.
+                  </p>
+                  <i class="fas fa-directions"></i>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-6">
+              <div class="card " style="width: 30rem">
+                <img class="card-img-top"
+                src="https://images.unsplash.com/photo-1484233693062-745ef10139bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                class="overlap" alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Save your favorite trails.</h5>
+                  <p class="card-text">
+                    Keep a list of the trails you want to explore, or the ones
+                    that inspire you to get outside. Never lose track of your
+                    next adventure.
+                  </p>
+                  <a href="" class="btn btn-outline-danger btn-sm"
+                    ><i class="far fa-heart"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!--SECTION 8-->
+      <section class="section8">
+        <div class="container-fluid">
+          <h1>Make every adventure unique</h1>
+          <img
+            src="https://cdn-assets.alltrails.com/assets/marketing/macbook-bacf52b23957182364eae4e4728ef24c.png"
+            alt=""
+            class="overlap"
+          />
+        </div>
+      </section>
+
+      <!--SECTION 9-->
+      <section class="section9">
+        <div class="container-fluid">
+          <h2>Create custom maps to personalize your trip.</h2>
+          <p>
+            With AllTrails you can easily create custom maps from your computer.
+            Draw your route(s), select your colors, add waypoints, then share
+            with friends or family.
+          </p>
+          <button type="button" class="btn btn-primary">Create map</button>
+        </div>
+      </section>
+
+      <!--SECTION 10-->
+      <section class="section10">
+        <div class="container-fluid">
+          <h1>Get insider access</h1>
+          <img
+            src="https://cdn-assets.alltrails.com/assets/marketing/get-insider-access-iphone-3c59e3f4ee8181875744d92e004c887e.png"
+            alt=""
+            class="overlap"
+          />
+        </div>
+      </section>
+
+      <!--SECTION 11-->
+      <section class="section11">
+        <div class="container-fluid">
+          <h2>
+            Know what to expect with content from outdoor enthusiasts like you.
+          </h2>
+          <p>
+            Use map overlays to see community geotagged photos. View waypoints
+            from an active community of 10 million AllTrails users. Check out
+            nearby trails and explore all the possibilities.
+          </p>
+        </div>
+      </section>
+
+      <!--SECTION 12-->
+      <section class="section12">
+        <div class="container-fluid">
+          <h1>Hit the trail with confidence</h1>
+          <img
+            src="https://cdn-assets.alltrails.com/assets/marketing/get-insider-access-iphone-3c59e3f4ee8181875744d92e004c887e.png"
+            alt=""
+            class="overlap"
+          />
+        </div>
+      </section>
+
+      <!--SECTION 13-->
+
+      <section class="section13">
+        <div class="container-fluid">
+          <h2>
+            <img
+              src="https://cdn-assets.alltrails.com/assets/marketing/alltrails-pro-logo-500x65-a6f294b75a26fb16f54327a45916a6f4.jpg"
+              alt=""
+              class="logoresize1"
+            />
+            <br />
+            <br />
+            The best features at your fingertips. Do more with Pro.
+          </h2>
+          <br />
+          <p>
+            AllTrails Pro makes getting outdoors easier and safer than ever. See
+            the latest conditions with real-time map overlays, stay on course
+            with off-route notifications, and download maps to your phone so you
+            know where you are when there’s no data signal.
+          </p>
+          <button type="button" class="btn btn-primary">
+            See all the features
+          </button>
+        </div>
+      </section>
+
+      <!--SECTION 14-->
+      <section class="section14">
+          <div class="container-fluid">
+              <h2>Join a community of 10 million outdoor explorers</h2>
+            <div class="row">
+              <div class="col-md-4">
+              <div class="card h-100" style="width: 25rem;">
+              <div class="card-header">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>
+                    I will refer everyone I know. I would gladly pay over 600 dollars for AllTrails. I can't say enough about AllTrails. I would like to personally thank you for your outstanding product.
+                  </p>
+                  <footer class="blockquote-footer">
+                    Edward G.
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100" style="width: 25rem;">
+                <div class="card-header">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                        AllTrails is worth much more than I paid.
+                    </p>
+                    <footer class="blockquote-footer">
+                        Martelle P.
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+              </div>
+    
+            <div class="col-md-4">
+            <div class="card h-100" style="width: 25rem;">
+            <div class="card-header">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                    Thanks guys, keep up the good work! I just can't get enough of AllTrails. I want to get a T-Shirt with AllTrails on it so I can show it off to everyone. This is simply unbelievable!
+                </p>
+                <footer class="blockquote-footer">
+                  Daryl B.
+                </footer>
+              </blockquote>
+            </div>
+            </div>
+            </div>
+      </section>
+
+      <!--SECTION 15-->
+      <section class="section15">
+        <div class="container-fluid">
+          <h1>Start your next exploration</h1>
+          
+          <div class="card" style="width: 23rem;">
+              <div class="card-body">
+                <h5 class="card-title">Free Account</h5>
+                <h6 class="card-subtitle mb-2 text-muted">$0.00 / month</h6>
+                <hr>
+                <p class="card-text">
+                  <li>Keep track of your favorite trails</li>
+                  <li>Record and share your activity
+                    </li>
+                  <li>Create and share custom maps</li>
+                  <li>Follow your friends for inspiration
+                    </li>
+                  <li>Be part of the community
+                    </li>
+                  <li>Download maps for offline navigation
+                    </li>
+                  <li>Never miss a turn with off-route notifications
+                    </li>
+                  <li>Stay safe with Lifeline
+                    </li>
+                  <li>Know what to expect with real-time overlays
+                    </li>
+                    <li>Print your own maps for backup</li>
+                    <li>Experience AllTrails ad-free</li>
+                    <li>Help create a healthier planet</li>
+
+                </p>
+                <button type="button" class="btn btn-primary" style="width: 100%">Sign Up</button>
+              </div>
+            </div>
+            <div class="card" style="width: 23rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Pro Account</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">$2.50 / month</h6>
+                  <hr>
+                  <p class="card-text">
+                      <li>Keep track of your favorite trails</li>
+                      <li>Record and share your activity
+                        </li>
+                      <li>Create and share custom maps</li>
+                      <li>Follow your friends for inspiration
+                        </li>
+                      <li>Be part of the community
+                        </li>
+                      <li>Download maps for offline navigation
+                        </li>
+                      <li>Never miss a turn with off-route notifications
+                        </li>
+                      <li>Stay safe with Lifeline
+                        </li>
+                      <li>Know what to expect with real-time overlays
+                        </li>
+                        <li>Print your own maps for backup</li>
+                        <li>Experience AllTrails ad-free</li>
+                        <li>Help create a healthier planet</li>
+                  </p>
+                  <button type="button" class="btn btn-outline-primary" style="width: 100%">Get Pro</button>
+                </div>
+              </div>
+
+              <h6>Note: you will be charged $29.99 today and renewed next year unless you update your renewal settings.</h6>
+        </div>
+      </section>
+
+      <!--SECTION 16-->
+      <section class="section16">
+        <div class="container-fluid">
+          <h3>Browse Popular Trails</h3>
+          <br />
+          <div class="row">
+            <div class="col-4">
+              <li>Boulder Lake Loop</li>
+              <li>Coontree Loop Mountain Bike Trail</li>
+              <li>Lemei Trail to Lemei Rock</li>
+              <li>Juniper Peak Summit Trail</li>
+              <li>Skytop Trail</li>
+            </div>
+            <div class="col-4">
+              <li>Edge Farm Trail</li>
+              <li>Rice Creek Tower Trail</li>
+              <li>Hill Canyon Trail to Hawk Canyon</li>
+              <li>Twin Bridge Road and Red Fox Trail Loop</li>
+              <li>Cat Hollow Trail</li>
+            </div>
+            <div class="col-4">
+              <li>Lake MacKenzie via Routeburn trail</li>
+              <li>Coyote Song and Prairie Falcon Loop</li>
+              <li>Wilderness Ridge Nature Trail</li>
+              <li>Mount Durras from Pretty Beach</li>
+              <li>Latterbarrow and The Sawreys</li>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 17-->
+      <section class="section17">
+        <div class="container-fluid">
+          <h3>Browse Popular Parks</h3>
+          <br />
+          <div class="row">
+            <div class="col-4">
+              <li>Yosemite National Park Trails</li>
+              <li>Rocky Mountain National Park Trails</li>
+              <li>Zion National Park Trails</li>
+              <li>Grand Canyon National Park Trails</li>
+              <li>Yellowstone National Park Trails</li>
+            </div>
+            <div class="col-4">
+              <li>Acadia National Park Trails</li>
+              <li>Olympic National Park Trails</li>
+              <li>Sequoia National Park Trails</li>
+              <li>Great Smoky Mountains National Park Trails</li>
+              <li>Grand Teton National Park Trails</li>
+            </div>
+            <div class="col-4">
+              <li>Mt. Rainier National Park Trails</li>
+              <li>Mount Diablo State Park Trails</li>
+              <li>Mt. Tamalpais State Park Trails</li>
+              <li>Big Basin Redwoods State Park Trails</li>
+              <li>Joshua Tree National Park Trails</li>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 18-->
+      <section class="section18">
+        <div class="container-fluid">
+          <h3>Browse Popular Cities</h3>
+          <br />
+          <div class="row">
+            <div class="col-4">
+              <li>Los Angeles Trails</li>
+              <li>San Francisco Trails</li>
+              <li>Phoenix Trails</li>
+              <li>Washington D.C. Trails</li>
+              <li>Calgary Trails</li>
+            </div>
+            <div class="col-4">
+              <li>Atlanta Trails</li>
+              <li>Sacramento Trails</li>
+              <li>Honolulu Trails</li>
+              <li>Houston Trails</li>
+              <li>Colorado Springs Trails</li>
+            </div>
+            <div class="col-4">
+              <li>St. Louis Trails</li>
+              <li>Charlotte Trails</li>
+              <li>Toronto Trails</li>
+              <li>Portland Trails</li>
+              <li>Boulder Trails</li>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 19-->
+      <section class="section19">
+        <div class="container-fluid">
+          <h3>Browse Popular Countries</h3>
+          <br />
+          <div class="row">
+            <div class="col-4">
+              <li>United States Trails</li>
+              <li>Australia Trails</li>
+              <li>Canada Trails</li>
+              <li>India Trails</li>
+              <li>New Zealand Trails</li>
+            </div>
+            <div class="col-4">
+              <li>England Trails</li>
+              <li>Ireland Trails</li>
+              <li>Spain Trails</li>
+              <li>Belgium Trails</li>
+              <li>Mexico Trails</li>
+            </div>
+            <div class="col-4">
+              <li>Israel Trails</li>
+              <li>Sweden Trails</li>
+              <li>Indonesia Trails</li>
+              <li>Poland Trails</li>
+              <li>Denmark Trails</li>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 20-->
+      <section class="section20">
+        <div class="container-fluid">
+          <img
+            class="logoresize"
+            src="https://cdn-assets.alltrails.com/assets/partners-logos/1_Percent_Logo_@2x-4f4c2218b3018fb0a239b97f34d4c168.png"
+            alt=""
+          />
+          <p>
+            As a proud member of 1% for the Planet, we give 1% of our annual
+            sales to nonprofit organizations focusing on protecting the wild
+            places we cherish and creating positive change for a healthier
+            planet.
+          </p>
+          <button type="button" class="btn btn-outline-light">
+            Give back with Pro
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+      <section class="footercolor container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <a class="navbar-brand text-left" href="#"
+              ><img
+                class="logoresize"
+                src="https://cdn-assets.alltrails.com/assets/marketing/alltrails-logo-1669e0b7bee7c3c931444c9c3f254a37.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col-6">
+            <strong>Get the App</strong>
+
+            <a id="applebadge"
+              href="https://apps.apple.com/us/app/app-store-connect/id1234793120?mt=8"
+            ></a>
+            <a href='http://play.google.com/store/?pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+          </div>
+        </div>
+
+        <hr />
+        <div class="midfooter">
+          <div class="row">
+            <div class="col">
+              <a href="https://www.alltrails.com/explore?ref=footer">Explore</a>
+              <li>
+                <a href="https://www.alltrails.com/england"> England Trails</a>
+              </li>
+              <li>
+                <a href="https://www.alltrails.com/australia"
+                  >Australia Trails</a
+                >
+              </li>
+              <li>
+                <a href="https://www.alltrails.com/france"> France Trails</a>
+              </li>
+              <li>More</li>
+            </div>
+            <div class="col">
+              Maps
+              <li>My Maps</li>
+              <li>Create Map</li>
+              <li>Print Maps</li>
+            </div>
+            <div class="col">
+              Company
+              <li>About</li>
+              <li>Jobs</li>
+              <li>Advertise</li>
+              <li>Press</li>
+            </div>
+            <div class="col">
+              Community
+              <li>Support</li>
+              <li>Members</li>
+              <li>Give Pro</li>
+            </div>
+            <div class="col">
+              Stay Connected
+              <div class="col">
+                <button type="button" class="btn btn-fb">
+                  <i class="fab fa-facebook-f"></i>
+                </button>
+                <button type="button" class="btn btn-tw">
+                  <i class="fab fa-twitter"></i>
+                </button>
+                <button type="button" class="btn btn-ins">
+                  <i class="fab fa-instagram"></i>
+                </button>
+                <button type="button" class="btn btn-gplus">
+                  <i class="fab fa-google-plus-g"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="end">
+          <div class="row">
+            <div class="col-4">
+              <select class="selectpicker" data-width="fit">
+                <option>English</option>
+                <option>Français</option>
+              </select>
+            </div>
+            <div class="col-4">
+              <h6>
+                2019 AllTrails, LLC All Rights Reserved
+                <span>
+                  Privacy Policy | Terms of Service
+                </span>
+              </h6>
+            </div>
+            <div class="col-4">
+              Proud Member of
+              <img
+                class="endlogoresize"
+                src="https://cdn-assets.alltrails.com/assets/partners-logos/1_Percent_Logo_Color-Footer@2x-0a29f8ef1f088b16407bfe99839f8e11.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/js" src="trails.js"></script>
+  </body>
+</html>

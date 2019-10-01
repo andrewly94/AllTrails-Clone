@@ -1,0 +1,329 @@
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 100%;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.signupbtn {
+  background-color: #3ca3f7;
+}
+
+.btn btn-default {
+  border: solid;
+  border-style: solid;
+  border-color: blue;
+}
+
+.btn-link {
+  color: black;
+}
+
+.btn-link:hover {
+  background-color: #0ead01;
+}
+
+.btn-outline-success {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+h1:nth-of-type(odd) {
+  color: white;
+  font-size: 50px;
+}
+
+i {
+  font-weight: bold;
+}
+
+h6 {
+  color: #c5c5c7;
+}
+
+.col a {
+  color: gray;
+}
+
+.card {
+  text-align: justify;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.logoresize {
+  width: 150px;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+}
+.logoresize1 {
+  width: 300px;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.endlogoresize {
+  width: 80px;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlap {
+  padding-right: 100px;
+  top: 0px;
+  z-index: 1;
+  padding-top: 50px;
+}
+
+.card {
+  display: inline-block;
+}
+
+.col {
+  list-style: none;
+}
+.col-4 {
+  list-style: none;
+}
+
+.section1 {
+  background: url('https://cdn-assets.alltrails.com/assets/hero-images/Home-Hero-1-Medium-1024x585-eee9612a2eb4e4529a6918d8b233991f.jpg')
+    no-repeat center;
+  background-size: cover;
+  height: 88%;
+  padding: 130px 100px 200px 100px;
+  opacity: 1;
+  filter: brightness(100%);
+}
+
+.section1 h1 {
+  font-size: 4em;
+}
+
+.searchbar {
+  justify-content: center;
+  padding: 0px 250px 0px 250px;
+}
+
+.section2 {
+  text-align: center;
+  padding: 140px;
+}
+
+.section2 h1 {
+  color: black;
+}
+
+.section2 p {
+  padding: 0px 195px;
+  color: gray;
+  line-height: 2;
+  font-size: 16.5px;
+}
+
+.section3 {
+  background: url('https://cdn-assets.alltrails.com/assets/marketing/exploration-made-easy-home-725ce46dc655ed0b0ac6be70e3305139.jpg')
+    no-repeat center;
+  background-size: cover;
+  height: 100%;
+  padding: 100px 100px 200px 200px;
+}
+
+.section4 {
+  text-align: center;
+  text-justify: inter-word;
+  padding: 185px 350px 120px 350px;
+}
+
+.section4 p {
+  color: gray;
+  line-height: 2;
+  font-size: 16.5px;
+}
+
+.section5 {
+  background: url('https://cdn-assets.alltrails.com/assets/marketing/know-the-details-home-b04948c759cb5e57c992f83c45dc107d.jpg')
+    no-repeat center;
+  background-size: cover;
+  height: 100%;
+  padding: 85px 100px 200px 100px;
+}
+
+.section6 {
+  text-align: center;
+  text-justify: inter-word;
+  padding: 185px 350px 120px 350px;
+}
+
+.section6 p {
+  color: gray;
+  line-height: 2;
+  font-size: 16.5px;
+}
+
+.section7 {
+  background-color: #dbdcde;
+  padding: 50px 150px 0px 150px;
+}
+
+.section8 {
+  background: url('https://cdn-assets.alltrails.com/assets/marketing/make-every-adventure-unique-3de5baaac69b1a81473e401b7209a015.jpg')
+    no-repeat center;
+  background-size: cover;
+  height: 100%;
+  padding: 100px 100px 200px 200px;
+}
+
+.section9 {
+  padding: 150px 350px 90px 350px;
+}
+
+.section9 p {
+  color: gray;
+  line-height: 2;
+  font-size: 16.5px;
+}
+
+.section10 {
+  background: url('https://cdn-assets.alltrails.com/assets/marketing/get-insider-access-home-760bb01fc6bd33f2105b24b8568d5181.jpg')
+    no-repeat center;
+  background-size: cover;
+  height: 100%;
+  padding: 100px 150px 200px 100px;
+}
+
+.section11 {
+  padding: 180px 290px 100px 290px;
+}
+
+.section11 p {
+  color: gray;
+  line-height: 2;
+  font-size: 16.5px;
+}
+
+.section12 {
+  background: url('https://cdn-assets.alltrails.com/assets/marketing/pro-banner-home-45e1a936d1f03830ceda744fa9359d73.jpg')
+    no-repeat center;
+  background-size: cover;
+  height: 100%;
+  padding: 100px 100px 200px 100px;
+}
+
+.section13 {
+  text-align: center;
+  padding: 180px 340px 100px 340px;
+}
+
+.section14 {
+  background-color: #dbdcde;
+  padding: 50px 10px;
+}
+
+.section15 {
+  background: url('https://cdn-assets.alltrails.com/assets/marketing/bg-newblock-3c8db3cf1c4ad61487d2f5d9b714ebdd.jpg')
+    no-repeat center;
+  background-size: cover;
+  padding: 20px 0px;
+}
+
+.section15 .card {
+  margin: 40px 10px;
+  line-height: 2;
+}
+
+.section16 {
+  padding: 50px 20px;
+  align-content: center;
+}
+
+.section17 {
+  background-color: #dbdcde;
+  padding: 50px 100px 50px 100px;
+}
+
+.section18 {
+  padding: 50px 100px 50px 100px;
+}
+
+.section19 {
+  background-color: #dbdcde;
+  padding: 50px 100px 50px 100px;
+}
+
+.section20 {
+  background-color: #446e3c;
+  padding: 50px 350px;
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+#applebadge {
+  display: inline-block;
+  overflow: hidden;
+  background: url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2018-06-13&kind=iossoftware&bubble=ios_apps)
+    no-repeat;
+  width: 135px;
+  height: 40px;
+}
+
+#googlebadge {
+  display: inline-block;
+  overflow: hidden;
+  background: url(http://play.google.com/store/?pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
+    no-repeat;
+  width: 135px;
+  height: 50px;
+}
+
+.midfooter {
+  text-align: justify;
+}
+
+.footercolor {
+  background-color: #f2ede9;
+  padding: 50px 50px;
+}
+
+.end {
+  size: 1em;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .section20 {
+    padding: 10px 1px 10px 1px;
+  }
+}
+
+.midfooter {
+  display: block;
+  float: none;
+  width: 100%;
+}
+
+.end {
+  display: block;
+}
